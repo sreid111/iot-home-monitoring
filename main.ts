@@ -17,7 +17,7 @@ function writeToOLED () {
     OLED.writeNum(Environment.ReadLightIntensity(AnalogPin.P2))
     OLED.newLine()
     OLED.writeString("Dust: ")
-    OLED.writeNum(Environment.ReadDust(DigitalPin.P16, AnalogPin.P1))
+    OLED.writeNum(Environment.ReadDust(DigitalPin.P13, AnalogPin.P1))
     OLED.newLine()
     OLED.writeString("Moisture: ")
     OLED.writeNum(Environment.ReadSoilHumidity(AnalogPin.P3))
